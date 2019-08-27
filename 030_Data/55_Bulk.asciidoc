@@ -193,7 +193,7 @@ POST /_bulk
 [source,js]
 --------------------------------------------------
 POST /website/_bulk
-{ "index": { "_type": "log" }}
+{ "index": { "_type": "blog" }}
 { "event": "User logged in" }
 --------------------------------------------------
 // SENSE: 030_Data/55_Bulk_defaults.json
